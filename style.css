@@ -18,10 +18,10 @@ body {
 
 }
 
-.wrapper .buttonanimatedbounceInUp {
+.wrapper  {
     width: 100%;
     margin-top: 20em;
     text-align: center;
-    animation-delay: 40s;
+    text-align: center;
 }
 
