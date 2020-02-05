@@ -1,39 +1,43 @@
-'use strict';
-s = 2;
-console.log(s);
-// // let marvel = {
-// //     name: "batmen",
-// //     age: 30,
-// //     isWarrior: true
-// // };
 
-// // console.log(marvel.name);
 
-// // let iphone = ['iphone6s.small','iphone7.mid','iphoneXS.high'];
+// if (num < 42) {
+//     console.log("Ошибка")
+// } else if (num > 100) {
+//     console.log("Нет меньше ста")
+// } else {
+//     console.log("Так и есть")
+// }
 
-// //  console.log(iphone[0]);
+// switch (him) {
+//     case him < 76:
+//         console.log("Okei");
+//         break;
+//     case him > 85:
+//         console.log("big");
+//         break;
+//     case him < 79:
+//         console.log("BiGest");
+//         break;
+//     case 50:
+//         console.log("Norm");
+//         break;
+// }
 
-// // alert('Hi Filippe and Israel Tel Aviv');
-// // // let answerUser = confirm('Do you man?');
-// // // console.log(answerUser);
 
-// // let answerUser = +prompt("Do you man? and 18 old", "Да");
-// //  console.log(typeof(answerUser));
+// while (him < 80){
+//     console.log(him);
+//     him++;
+// }
+// let him = 77;
+// do {
+//     console.log(him);
+//     him++;
+// }
+// while (him < 80)
 
-// //  console.log(typeof("iphone" + " - final"));
-//  console.log(typeof(20 + +" - final"));/
-
-let incr = 10,
-    decr = 10;
-
-  
-
-    console.log(incr++);
-    console.log(decr--);
-
-    console.log(2 === "4");
-
-    let Prajska = false,
-        Gagarin = false;
-
-        console.log(Prajska || Gagarin);
+for (let v = 1; v<8; v++) {
+    if (v == 6) {
+        break
+    }
+    console.log(v)
+}
