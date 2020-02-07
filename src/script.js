@@ -1,43 +1,18 @@
+let options = {
+    width: 1024,
+    height: 1024,
+    name: 'test'
+};
+console.log(options.name);
+options.bool = false;
+options.colors = {
+    border: "black",
+    background: "red"
+};
+delete options.bool;
+console.log(options);
 
-
-// if (num < 42) {
-//     console.log("Ошибка")
-// } else if (num > 100) {
-//     console.log("Нет меньше ста")
-// } else {
-//     console.log("Так и есть")
-// }
-
-// switch (him) {
-//     case him < 76:
-//         console.log("Okei");
-//         break;
-//     case him > 85:
-//         console.log("big");
-//         break;
-//     case him < 79:
-//         console.log("BiGest");
-//         break;
-//     case 50:
-//         console.log("Norm");
-//         break;
-// }
-
-
-// while (him < 80){
-//     console.log(him);
-//     him++;
-// }
-// let him = 77;
-// do {
-//     console.log(him);
-//     him++;
-// }
-// while (him < 80)
-
-for (let v = 1; v<8; v++) {
-    if (v == 6) {
-        break
-    }
-    console.log(v)
+for (let key in options) {
+    console.log('Свойство ' + key + ' имеет значение' + options[key]);
 }
+console.log(Object.keys(options).length);
