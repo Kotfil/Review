@@ -1,20 +1,43 @@
 * {
-  background-color: black;
-  color: aliceblue;
+    background-color: black;
+    color: aliceblue;
+    font-family: "Segoe UI Light";
+    font-size: x-small;
+    text-align: center;
+
+    margin: 0 auto;
+
 }
 
 .app-wrapper {
-  width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-areas:
-          "h h"
-          "n c";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+    display: grid;
+    grid-template-areas: "h h" "n c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+
 }
-.app-wrapper-content {
-  grid-area: c;
-  background-color: powderblue;
+
+.header img {
+    width: 20px;
+}
+
+.header {
+    grid-area: h;
+    background-color: ghostwhite;
+}
+
+.nav img {
+    width: 200px;
+}
+.nav {
+    grid-area: n;
+    background-color: black;
+
+}
+
+.content {
+    color: black;
+    grid-area: c;
+    background-color: ghostwhite;
+    margin-left: 5px;
 }
