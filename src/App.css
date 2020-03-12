@@ -9,35 +9,11 @@
 
 }
 
+
 .app-wrapper {
     display: grid;
     grid-template-areas: "h h" "n c";
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
 
-}
-
-.header img {
-    width: 20px;
-}
-
-.header {
-    grid-area: h;
-    background-color: ghostwhite;
-}
-
-.nav img {
-    width: 200px;
-}
-.nav {
-    grid-area: n;
-    background-color: black;
-
-}
-
-.content {
-    color: black;
-    grid-area: c;
-    background-color: ghostwhite;
-    margin-left: 5px;
 }
