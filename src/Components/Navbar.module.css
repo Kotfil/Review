@@ -1,0 +1,13 @@
+
+.nav {
+    grid-area: n;
+    background-color: black;
+}
+
+.nav img {
+    width: 200px;
+}
+
+.item {
+    color:black;
+}
