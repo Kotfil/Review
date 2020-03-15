@@ -16,3 +16,16 @@
     grid-template-columns: 2fr 10fr;
 
 }
+
+.app-wrapper-content {
+
+    color: black;
+    grid-area: c;
+    background-color: ghostwhite;
+    margin-left: 50px;
+
+}
+
+.content img {
+    width: 500px;
+}

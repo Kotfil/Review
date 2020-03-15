@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img src="https://cdn.dribbble.com/users/925347/screenshots/6281667/image.png"/>
             </div>
