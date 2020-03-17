@@ -1,5 +1,7 @@
 .item {
     color: wheat;
+    display: flex;
+    flex-direction: column;
 }
 
 .item img {
