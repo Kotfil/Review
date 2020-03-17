@@ -4,8 +4,6 @@ import s from './Post.module.css';
 const Post = (props) => {
     return (
 
-
-
         <div className={s.item}>
             <img src='https://steemitimages.com/DQmZdFatQjDY6Qo6heBkwL8jWTHqEYXzGEVhCfXjpeR41Bt/Untitled-2.png'/>
             {props.message}
