@@ -8,7 +8,7 @@ import {addPost} from './redux/state';
 import {BrowserRouter} from "react-router-dom";
 
 let rerenderEntireTree  = () => {
-
+    addPost('23232');
 
 ReactDOM.render(
     <BrowserRouter>
